@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/styles.css" />
+    <title>Architect agency | About</title>
+</head>
+<body>
+
+    <nav aria-label="main-navigation" id="main-nav">
+        <ul>
+            <li id="li-logo"><a href="/home.html" id="logo">HOME</a></li>
+
+            <li><a href="/home.html">HOME</a></li>
+            <li><a href="/about.html">ABOUT</a></li>
+            <li><a href="/projects.html">PROJECTS</a></li>
+            <li><a href="/gallery.html">GALLERY</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+            <li><button>GR</button></li>
+            <li id="sandwitch"><button><img src="./public/assets/pngwing.com.png" alt="sandwitch button" ></button></li>
+        </ul>
+    </nav>
+
+    <ul id="mobile-nav">
+        <li><a href="/home.html">HOME</a></li>
+        <li><a href="/about.html">ABOUT</a></li>
+        <li><a href="/projects.html">PROJECTS</a></li>
+        <li><a href="/gallery.html">GALLERY</a></li>
+        <li><a href="/contact.html">CONTACT</a></li>
+        <li><button>GR</button></li>
+    </ul>
+
+    <script type="module">
+
+        import { underline, increaseNav, sandwitch, resize } from './index.js';
+
+        underline(3);
+        increaseNav();
+        sandwitch();
+        resize(); 
+    </script>
+    
+</body>
+</html>
