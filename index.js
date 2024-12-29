@@ -10,13 +10,22 @@ export function underline(num) {
 export function increaseNav() {
 
     window.addEventListener('scroll', () => {
+        //navbar
         if (window.scrollY > 130) {
-            navbar.style.height = '60px';
-            logo.style.height = '60px';
+            navbar.style.height = '50px';
+            logo.style.height = '50px';
         } else {
             navbar.style.height = '80px'; 
             logo.style.height = '80px';
         }
+        
+        //topBtn
+        if (window.scrollY > 1000) {
+            topBtn.style.display = 'block';            
+        } else {
+            topBtn.style.display = 'none';            
+        }
+
     });
 
 }
