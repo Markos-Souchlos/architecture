@@ -20,6 +20,7 @@ body {
 form {
     padding:160px 0px 120px;
     background-color: red;
+    /* background-image: url('/public/assets/Buildings/Project_02/Εικόνα_7.jpg'); */
     background-image: url('/public/assets/Buildings/Project_02/Εικόνα_7.jpg');
     background-size: cover;
     background-position: center;
