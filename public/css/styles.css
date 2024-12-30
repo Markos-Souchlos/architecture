@@ -8,6 +8,10 @@
     --footer: #1f1f1f;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--background);
     margin: 0px;
@@ -30,7 +34,8 @@ body {
     width:60px;
     height:60px;
     display: none;
-    transition: opacity 0.4s ease-out;
+    transition: all 0.4s allow-discrete;
+    z-index: 1;
 }
 #top:hover {
     cursor:pointer;
@@ -43,6 +48,14 @@ body {
     height:100%;
     object-fit: cover;
     object-position: center;
+}
+
+@starting-style {
+
+    #top{
+        opacity: 0;
+    }
+
 }
 
 
@@ -78,7 +91,7 @@ body {
 }
 
 #logo-img {
-    height:60px;
+    height:80px;
     transition: height 0.3s ease;
 }
 
@@ -157,6 +170,7 @@ body {
     margin:80px 0px 0px 0px ;
     background-color: var(--background);
     padding-left:0px;
+    z-index: 1;
 }
 
 #mobile-nav li {
@@ -171,9 +185,46 @@ body {
 
 
 #main-header {
+    /* background-color: rgba(255, 0, 0, 0.24); */
+
     width: 100vw;
     height: 100vh;
     margin-top: 0px;
+    position: relative;
+}
+
+#main-header div {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    color:white;
+    /* background-color: red; */
+}
+
+#main-header h1 {
+    font-size: clamp(30px, 4vw, 50px);
+    /* background-color: red; */
+    width:70vw;
+    text-shadow:
+    2px 2px 2px black;
+}
+
+#main-header p,
+#main-header a {
+    font-size: clamp(18px, 1vw, 30px);
+    text-shadow:2px 2px 2px black;
+}
+
+#main-header a {
+    color:inherit;
+    text-decoration: none;
+    border:1px solid white;
+    padding:10px;
+    border-radius: 30px;
+    font-weight: 900;
+    display: inline-block;
 }
 
 #main-header img {
@@ -181,6 +232,8 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    filter: brightness(0.6);
+    /* position:absolute; */
     
 }
 
@@ -188,8 +241,91 @@ body {
 
 
 
+
+section.about-us {
+    background-color: var(--footer);
+    color: var(--background);
+    width:100%;
+    margin:100px 0px;
+    padding:100px 0px;
+}
+
+section.about-us h2,
+section.about-us p,
+section.about-us div {
+    width:80%;
+    padding:20px;
+    max-width: 1000px;
+    margin:auto;
+    /* background-color: red; */
+}
+
+section.about-us h2 {
+    font-size: clamp(30px, 5vw, 50px);
+    /* background-color: rgba(0, 0, 255, 0.322); */
+}
+
+section.about-us p {
+    font-size: clamp(16px, 2vw, 25px);
+    line-height: clamp(1, 2vw, 1.5);
+}
+
+section.about-us a {
+    display: inline;
+    padding: 10px;
+    color: var(--footer);
+    background-color: var(--background);
+    text-decoration:none;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: clamp(16px, 2vw, 30px);
+}
+section.about-us a:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+.flexing {
+    width: 100%;
+    max-width: 1400px;
+    padding:100px 50px;
+    display: flex;
+    justify-content: space-around;
+    margin:100px auto 0px;
+    gap:40px;
+}
+
+.flexing .card {
+    width: 300px;
+    min-width: 250px;
+}
+
+.f1 {
+    color:red;
+}
+.f2 {
+    color:green;
+}
+.f3 {
+    color:blue;
+}
+
+.flexing .colored {
+    display: block;
+}
+
+
+
+
+
+
 iframe {
-    margin:40px 0px;
+    margin:40px 0px 150px;
     width:100%;
     height:300px;
 }
@@ -291,7 +427,6 @@ footer {
 }
 
 #copyright {
-    /* background-color: red; */
     color: #9e9e9e;
     margin:49px auto 0px;
     width:90%;
@@ -331,7 +466,7 @@ footer {
 
 
 
-@media only screen and (max-width:700px) {
+@media (max-width:700px) {
 
     #main-nav #sandwitch {
         display: block !important;
@@ -343,6 +478,15 @@ footer {
 
     #mobile-nav li a {
         width:100%;
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .flexing {
+        flex-direction: column;
+        align-items: center;
     }
 
 }

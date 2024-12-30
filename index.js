@@ -20,10 +20,12 @@ export function increaseNav() {
         }
         
         //topBtn
-        if (window.scrollY > 1000) {
+        if (window.scrollY > 300) {
             topBtn.style.display = 'block';            
+            topBtn.style.opacity = '1';            
         } else {
             topBtn.style.display = 'none';            
+            topBtn.style.opacity = '0';            
         }
 
     });

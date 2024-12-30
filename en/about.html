@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/styles.css" />
+    <link rel="stylesheet" href="../public/css/about.css" />
+    <title>Architect agency | About</title>
+</head>
+<body>
+
+    <nav aria-label="main-navigation" id="main-nav">
+        <ul>
+            <li id="li-logo"><a href="/en/home.html" id="logo"><img src="../public/assets/icons/88d728b9-073a-4b3e-bbb2-1975ab491d05.jpeg" alt="logo" id="logo-img" ></a></li>
+
+            <li><a href="/en/home.html">HOME</a></li>
+            <li><a href="/en/about.html">ABOUT</a></li>
+            <li><a href="/en/projects.html">PROJECTS</a></li>
+            <li><a href="/en/gallery.html">GALLERY</a></li>
+            <li><a href="/en/contact.html">CONTACT</a></li>
+            <li><button>GR</button></li>
+            <li id="sandwitch"><button><img src="../public/assets/icons/pngwing.com.png" alt="sandwitch button" ></button></li>
+        </ul>
+    </nav>
+
+    <ul id="mobile-nav">
+        <li><a href="/home.html">HOME</a></li>
+        <li><a href="/about.html">ABOUT</a></li>
+        <li><a href="/projects.html">PROJECTS</a></li>
+        <li><a href="/gallery.html">GALLERY</a></li>
+        <li><a href="/contact.html">CONTACT</a></li>
+        <li><button>GR</button></li>
+    </ul>
+
+    <button id="top" >
+        <img src="../public/assets/icons/icons8-top-50.png" alt="go to top" title="Go to top" >
+    </button>
+
+    <main>
+
+        <header>
+            <h1>[Agency Name]</h1>
+            <p>Redefining Architectural Elegance in Rethymno</p>
+        </header>
+        
+        <section>
+            <div class="image-container">
+                <img src="../public/assets/Buildings/Project_03/Εικόνα_5.png" alt="Beautiful Architecture" />
+            </div>
+            
+            <p>For 14 years, we’ve been shaping dreams into reality, crafting modern villas that harmonize with the breathtaking landscapes of Rethymno, Greece.</p>
+        
+            <h2>Our Vision</h2>
+            <div class="image-container">
+                <img src="../public/assets/Buildings/Project_02/Εικόνα_7.jpg" alt="Vision of Architecture" />
+            </div>
+            <p>We believe architecture is more than structure; it’s a dialogue between the past and the future. With sustainability as our cornerstone, we blend cutting-edge modern design with the soul of Crete’s local culture.</p>
+        
+            <h2>What We Do</h2>
+            <h3>New Builds, Redefined</h3>
+            <div class="image-container">
+                <img src="../public/assets/Buildings/Project_13/Εικόνα_3.png" alt="New Builds" />
+            </div>
+            <p>We specialize in designing and building villas tailored to your aspirations. Each project is a unique symphony of natural materials, innovative techniques, and timeless aesthetics.</p>
+        
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li><strong>Experience Meets Innovation:</strong> Over a decade of expertise ensures every detail of your villa is meticulously executed.</li>
+                <li><strong>Sustainable Design:</strong> From eco-friendly materials to energy-efficient solutions, we prioritize designs that respect the environment.</li>
+                <li><strong>Rooted in Local Culture:</strong> Our designs pay homage to the beauty and history of Rethymno while embracing contemporary elegance.</li>
+            </ul>
+        
+            <h2>Let’s Build Your Dream</h2>
+            <div class="image-container">
+                <img src="../public/assets/Buildings/Project_04/Εικόνα_8.png" alt="Dream Villa" />
+            </div>
+            <p>Step into a world where your villa reflects your personality, set against the serene backdrop of Crete. We’re here to turn your vision into a masterpiece.</p>
+        </section>
+
+    </main>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7318.246304091099!2d24.46007261527198!3d35.36383370041542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149b75f5079565bb%3A0xea975fc7db4f05a7!2sdomifactus!5e0!3m2!1sen!2sgr!4v1735421228082!5m2!1sen!2sgr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        <div id="fcontainer">
+            <div class="footer-card lg">
+                <a href="/en/home.html"><img src="../public/assets/icons/88d728b9-073a-4b3e-bbb2-1975ab491d05.jpeg" alt="logo" id="footer-logo" ></a>
+                <p>Domifactus Architecture Studio creates innovative, sustainable spaces that inspire and endure</p>
+            </div>
+            <div class="footer-card info">
+                <h2>CONTACT</h2>
+                <hr />
+                <ul>
+                    <li><a>28310 57831</a></li>
+                    <li><a>693 240 0774</a></li>
+                    <li><a>domifactus@yahoo.gr</a></li>
+                    <li><a>Euridikis 2, Rethymno</a></li>
+                </ul>
+            </div>
+            <div class="footer-card we-are-open">
+                <h2>WE ARE OPEN</h2>
+                <hr />
+                <p>MON - FRI 8PM-2AM</p>
+                <p>SAT, SUN &nbsp; CLOSED</p>
+                <a href="/en/contact.html">CONTACT US</a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>Copyright <span id="year">2024</span> &copy | domifactus | All rights reserved </p>
+            <a href="/en/privacy-policy">Privacy Policy</a>
+        </div>
+    </footer>
+
+
+
+
+
+    <script type="module">
+
+        import { underline, increaseNav, sandwitch, resize, goToTop, getYear } from '../index.js';
+
+        underline(3);
+        increaseNav();
+        sandwitch();
+        resize(); 
+        goToTop();
+        getYear();
+
+    </script>
+    
+</body>
+</html>

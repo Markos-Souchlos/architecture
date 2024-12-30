@@ -1,0 +1,8 @@
+/contact -> background image
+background color
+primary color
+iframe map on contact
+collapsable navigation
+go to top btn
+
+serverless website (slow gallery) vs website with server (fast gallery) vs no gallery
