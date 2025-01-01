@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/styles.css" />
     <link rel="stylesheet" href="../public/css/contact.css" />
-    <title>Architect agency | Contact</title>
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
+    <title>Domifactus | Contact</title>
 </head>
 <body>
 
@@ -18,8 +19,8 @@
             <li><a href="/en/projects.html">PROJECTS</a></li>
             <li><a href="/en/gallery.html">GALLERY</a></li>
             <li><a href="/en/contact.html">CONTACT</a></li>
-            <li><button>GR</button></li>
-            <li id="sandwitch"><button><img src="../public/assets/icons/pngwing.com.png" alt="sandwitch button" ></button></li>
+            <li><button class="change-lang">GR</button></li>
+            <li id="sandwitch"><button><img width="96" height="96" src="https://img.icons8.com/plumpy/96/menu--v5.png" alt="menu--v5"/></button></li>
         </ul>
     </nav>
 
@@ -29,7 +30,7 @@
         <li><a href="/en/projects.html">PROJECTS</a></li>
         <li><a href="/en/gallery.html">GALLERY</a></li>
         <li><a href="/en/contact.html">CONTACT</a></li>
-        <li><button>GR</button></li>
+        <li><button class="change-lang">GR</button></li>
     </ul>
 
     <button id="top" >
@@ -38,16 +39,25 @@
 
 
 
-    <form>
+    <form id="contact-form">
         <div id="form-container">
             <h2>Contact us</h2>
-            <input type="text" id="firstname" placeholder="Full Name" required>
-            <input type="email" id="email" placeholder="Email" required>
-            <input type="number" id="phone" placeholder="Phone Number" required>
+
+            <input type="text" id="firstname" placeholder="Full Name" name="from_name" required>
+
+            <input type="email" id="email" placeholder="Email" name="mail" required>
+            <input type="number" id="phone" placeholder="Phone Number" name="phone" required>
             <textarea name="message" id="message" placeholder="Send us a message ..." ></textarea>
             <input type="submit" value="SEND" id="submit" />
         </div>
     </form>
+
+
+    <dialog id="dialog">
+        <h1>Email was sent successfully!</h1>
+        <p>We will reply back within 2-3 days</p>
+        <button onclick="closeBtn()">close</button>
+    </dialog>
 
 
 
@@ -89,7 +99,7 @@
 
     <script type="module">
 
-        import { underline, increaseNav, sandwitch, resize, goToTop, getYear } from '../index.js';
+        import { underline, increaseNav, sandwitch, resize, goToTop, getYear, changeLanguage } from '../index.js';
 
         underline(6);
         increaseNav();
@@ -97,6 +107,42 @@
         resize(); 
         goToTop();
         getYear();
+        changeLanguage('gr', 'contact');
+
+    </script>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+
+    <script>
+
+        emailjs.init('pitVKsLiX9xacECGu');
+        const dialog = document.querySelector('#dialog');
+
+        function closeBtn() {
+            dialog.close();
+        }
+
+        document.querySelector('#contact-form').addEventListener('submit', function(event) {
+
+            
+            event.preventDefault();
+
+            // Send email
+            emailjs.sendForm('service_e4fouvr', 'template_iksrslr', this)
+                .then(function() {
+                    // alert('Email sent successfully!');
+                    dialog.showModal();
+                }, function(error) {
+                    // alert('Failed to send email: ' + JSON.stringify(error));
+                    error = JSON.stringify(error);
+                    dialog.innerHTML = `<h1>Email was not sent</h1> <p>${error}</p> <button onclick="closeBtn()">close</button>`;
+                    dialog.showModal();
+                });
+
+
+        });
+ 
 
     </script>
     

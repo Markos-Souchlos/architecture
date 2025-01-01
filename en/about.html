@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/styles.css" />
     <link rel="stylesheet" href="../public/css/about.css" />
-    <title>Architect agency | About</title>
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
+    <title>Domifactus | About</title>
 </head>
 <body>
 
@@ -18,18 +19,18 @@
             <li><a href="/en/projects.html">PROJECTS</a></li>
             <li><a href="/en/gallery.html">GALLERY</a></li>
             <li><a href="/en/contact.html">CONTACT</a></li>
-            <li><button>GR</button></li>
-            <li id="sandwitch"><button><img src="../public/assets/icons/pngwing.com.png" alt="sandwitch button" ></button></li>
+            <li><button class="change-lang">GR</button></li>
+            <li id="sandwitch"><button><img width="96" height="96" src="https://img.icons8.com/plumpy/96/menu--v5.png" alt="menu--v5"/></button></li>
         </ul>
     </nav>
 
     <ul id="mobile-nav">
-        <li><a href="/home.html">HOME</a></li>
-        <li><a href="/about.html">ABOUT</a></li>
-        <li><a href="/projects.html">PROJECTS</a></li>
-        <li><a href="/gallery.html">GALLERY</a></li>
-        <li><a href="/contact.html">CONTACT</a></li>
-        <li><button>GR</button></li>
+        <li><a href="/en/home.html">HOME</a></li>
+        <li><a href="/en/about.html">ABOUT</a></li>
+        <li><a href="/en/projects.html">PROJECTS</a></li>
+        <li><a href="/en/gallery.html">GALLERY</a></li>
+        <li><a href="/en/contact.html">CONTACT</a></li>
+        <li><button class="change-lang">GR</button></li>
     </ul>
 
     <button id="top" >
@@ -39,7 +40,7 @@
     <main>
 
         <header>
-            <h1>[Agency Name]</h1>
+            <h1>DOMIFACTUS</h1>
             <p>Redefining Architectural Elegance in Rethymno</p>
         </header>
         
@@ -117,7 +118,7 @@
 
     <script type="module">
 
-        import { underline, increaseNav, sandwitch, resize, goToTop, getYear } from '../index.js';
+        import { underline, increaseNav, sandwitch, resize, goToTop, getYear, changeLanguage } from '../index.js';
 
         underline(3);
         increaseNav();
@@ -125,6 +126,7 @@
         resize(); 
         goToTop();
         getYear();
+        changeLanguage('gr', 'about');
 
     </script>
     

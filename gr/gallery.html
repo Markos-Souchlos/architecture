@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
+    <link rel="stylesheet" href="../public/css/styles.css" />
+    <link rel="stylesheet" href="../public/css/gallery.css" />
+    <title>Domifactus | Συλλογή</title>
+</head>
+
+<body>
+
+    <nav aria-label="Κύρια πλοήγηση" id="main-nav">
+        <ul>
+            <li id="li-logo"><a href="/gr/home.html" id="logo"><img src="../public/assets/icons/88d728b9-073a-4b3e-bbb2-1975ab491d05.jpeg" alt="λογότυπο" id="logo-img" ></a></li>
+
+            <li><a href="/gr/home.html">ΑΡΧΙΚΗ</a></li>
+            <li><a href="/gr/about.html">ΕΤΑΙΡΙΑ</a></li>
+            <li><a href="/gr/projects.html">ΕΡΓΑ</a></li>
+            <li><a href="/gr/gallery.html">ΣΥΛΛΟΓΗ</a></li>
+            <li><a href="/gr/contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+            <li><button class="change-lang">EN</button></li>
+            <li id="sandwitch"><button><img width="96" height="96" src="https://img.icons8.com/plumpy/96/menu--v5.png" alt="μενού"/></button></li>
+        </ul>
+    </nav>
+
+    <ul id="mobile-nav">
+        <li><a href="/gr/home.html">ΑΡΧΙΚΗ</a></li>
+        <li><a href="/gr/about.html">ΕΤΑΙΡΙΑ</a></li>
+        <li><a href="/gr/projects.html">ΕΡΓΑ</a></li>
+        <li><a href="/gr/gallery.html">ΣΥΛΛΟΓΗ</a></li>
+        <li><a href="/gr/contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+        <li><button class="change-lang">EN</button></li>
+    </ul>
+
+    <button id="top">
+        <img src="../public/assets/icons/icons8-top-50.png" alt="Βελάκι Πάνω" title="Πάμε Πάνω;">
+    </button>
+
+    <main>
+        
+    </main>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7318.246304091099!2d24.46007261527198!3d35.36383370041542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149b75f5079565bb%3A0xea975fc7db4f05a7!2sdomifactus!5e0!3m2!1sel!2sgr!4v1735421228082!5m2!1sel!2sgr" style="border:0;" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        <div id="fcontainer">
+            <div class="footer-card lg">
+                <a href="/gr/home.html"><img src="../public/assets/icons/88d728b9-073a-4b3e-bbb2-1975ab491d05.jpeg" alt="Λογότυπο" id="footer-logo"></a>
+                <p>Η Domifactus δημιουργεί καινοτόμους και βιώσιμους χώρους που εμπνέουν και αντέχουν.</p>
+            </div>
+            <div class="footer-card info">
+                <h2>ΕΠΙΚΟΙΝΩΝΙΑ</h2>
+                <hr />
+                <ul>
+                    <li><a>28310 57831</a></li>
+                    <li><a>693 240 0774</a></li>
+                    <li><a>domifactus@yahoo.gr</a></li>
+                    <li><a>Ευριδίκης 2, Ρέθυμνο</a></li>
+                </ul>
+            </div>
+            <div class="footer-card we-are-open">
+                <h2>ΩΡΑΡΙΟ</h2>
+                <hr />
+                <p>ΔΕΥ - ΠΑΡ 8ΠΜ-2ΜΜ</p>
+                <p>ΣΑΒ, ΚΥΡ &nbsp; ΚΛΕΙΣΤΑ</p>
+                <a href="/gr/contact.html">Επικοινωνήστε μαζί μας</a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>Copyright <span id="year">2024</span> &copy | Domifactus | Όλα τα δικαιώματα διατηρούνται</p>
+            <a href="/gr/privacy-policy">Πολιτική Απορρήτου</a>
+        </div>
+    </footer>
+
+    <script type="module">
+
+        import { underline, increaseNav, sandwitch, resize, goToTop, getYear, changeLanguage } from '../index.js';
+
+        underline(5);
+        increaseNav();
+        sandwitch();
+        resize(); 
+        goToTop();
+        getYear();
+        changeLanguage('en', 'gallery');
+
+    </script>
+
+    <script>
+
+        const main = document.querySelector('main');
+        let text = '';
+
+        const files = [3, 9, 8, 10, 5, 5, 10, 5, 3, 3, 5, 5, 3, 5, 6];
+        const desc = [
+            'Βίλα Horizon στην Ελούντα, Κρήτη',
+            'Συγκρότημα Διαμερισμάτων στα Χανιά, Κρήτη',
+            'Παραθαλάσσια Έπαυλη στον Άγιο Νικόλαο, Κρήτη',
+            'Πολυτελές Καταφύγιο στα Μαργαρίτες, Ρέθυμνο',
+            'Σύγχρονη Κατοικία στο Ηράκλειο, Κρήτη',
+            'Ρετιρέ στη Χερσόνησο, Κρήτη',
+            'Οικολογική Κατοικία στη Σητεία, Λασίθι',
+            'Παραθαλάσσια Βίλα στον Πλατανιά, Χανιά',
+            'Ιστορική Κατοικία στις Αρχάνες, Ηράκλειο',
+            'Ορεινό Καταφύγιο στα Ανώγεια, Ρέθυμνο',
+            'Παραθαλάσσιο Σπίτι στο Μπαλί, Ρέθυμνο',
+            'Σύγχρονο Loft στη Μάλια, Ηράκλειο',
+            'Γοητευτική Βίλα στον Άγιο Γεώργιο, Χανιά',
+            'Ευρύχωρο Διαμέρισμα στις Καλύβες, Χανιά',
+            'Κομψή Κατοικία στην Πιτσίδια, Ηράκλειο'
+        ];
+
+        for (let folder = 1; folder <= files.length; folder++) {
+            for (let file = 1; file <= files[folder - 1]; file++) {
+
+                const imageSrc = folder < 10
+                    ? `../public/assets/Buildings/Project_0${folder}/Εικόνα_${file}.png`
+                    : `../public/assets/Buildings/Project_${folder}/Εικόνα_${file}.png`;
+
+                text +=
+                    `<div class="card" onmouseover="hover(this)" onmouseout="hide(this)">
+                        <img src="${imageSrc}" alt="Κατασκευή" loading="lazy" onerror="this.onerror=null; this.src='${imageSrc.replace('.png', '.jpg')}';" />
+                        <p>${desc[folder - 1]}</p>
+                    </div>`;
+
+            }
+        };
+
+        main.innerHTML = text;
+
+        function hover(target) {
+            target.children[1].style.bottom = "-20px";
+            target.children[0].style.transform = "scale(1.05)";
+        }
+
+        function hide(target) {
+            target.children[1].style.bottom = "-110px";
+            target.children[0].style.transform = "scale(1.0)";
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
+    <link rel="stylesheet" href="../public/css/styles.css" />
+    <link rel="stylesheet" href="../public/css/contact.css" />
+    <title>Domifactus | Επικοινωνία</title>
+</head>
+<body>
+
+    <nav aria-label="Κύρια πλοήγηση" id="main-nav">
+        <ul>
+            <li id="li-logo"><a href="/gr/home.html" id="logo"><img src="../public/assets/icons/88d728b9-073a-4b3e-bbb2-1975ab491d05.jpeg" alt="λογότυπο" id="logo-img" ></a></li>
+
+            <li><a href="/gr/home.html">ΑΡΧΙΚΗ</a></li>
+            <li><a href="/gr/about.html">ΕΤΑΙΡΙΑ</a></li>
+            <li><a href="/gr/projects.html">ΕΡΓΑ</a></li>
+            <li><a href="/gr/gallery.html">ΣΥΛΛΟΓΗ</a></li>
+            <li><a href="/gr/contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+            <li><button class="change-lang">EN</button></li>
+            <li id="sandwitch"><button><img width="96" height="96" src="https://img.icons8.com/plumpy/96/menu--v5.png" alt="μενού"/></button></li>
+        </ul>
+    </nav>
+
+    <ul id="mobile-nav">
+        <li><a href="/gr/home.html">ΑΡΧΙΚΗ</a></li>
+        <li><a href="/gr/about.html">ΕΤΑΙΡΙΑ</a></li>
+        <li><a href="/gr/projects.html">ΕΡΓΑ</a></li>
+        <li><a href="/gr/gallery.html">ΣΥΛΛΟΓΗ</a></li>
+        <li><a href="/gr/contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+        <li><button class="change-lang">EN</button></li>
+    </ul>
+
+    <button id="top" >
+        <img src="../public/assets/icons/icons8-top-50.png" alt="βελάκι πάνω" title="Πάμε πάνω?" >
+    </button>
+
+    <form id="contact-form">
+        <div id="form-container">
+            <h2>Επικοινωνήστε μαζί μας</h2>
+
+            <input type="text" id="firstname" placeholder="Ονοματεπώνυμο" name="from_name" required>
+
+            <input type="email" id="email" placeholder="Ηλεκτρονικό Ταχυδρομείο" name="mail" required>
+            <input type="number" id="phone" placeholder="Τηλέφωνο" name="phone" required>
+            <textarea name="message" id="message" placeholder="Στείλτε μας το μήνυμά σας..." ></textarea>
+            <input type="submit" value="ΑΠΟΣΤΟΛΗ" id="submit" />
+        </div>
+    </form>
+
+    <dialog id="dialog">
+        <h1>Το email στάλθηκε με επιτυχία!</h1>
+        <p>Θα σας απαντήσουμε μέσα σε 2-3 ημέρες</p>
+        <button onclick="closeBtn()">Κλείσιμο</button>
+    </dialog>
+
+    <footer>
+        <div id="fcontainer">
+            <div class="footer-card lg">
+                <a href="/gr/home.html"><img src="../public/assets/icons/88d728b9-073a-4b3e-bbb2-1975ab491d05.jpeg" alt="λογότυπο" id="footer-logo" ></a>
+                <p>Η Domifactus Architecture Studio δημιουργεί καινοτόμους και βιώσιμους χώρους που εμπνέουν και αντέχουν</p>
+            </div>
+            <div class="footer-card info">
+                <h2>ΕΠΙΚΟΙΝΩΝΙΑ</h2>
+                <hr />
+                <ul>
+                    <li><a>28310 57831</a></li>
+                    <li><a>693 240 0774</a></li>
+                    <li><a>domifactus@yahoo.gr</a></li>
+                    <li><a>Ευριδίκης 2, Ρέθυμνο</a></li>
+                </ul>
+            </div>
+            <div class="footer-card we-are-open">
+                <h2>Ωράριο</h2>
+                <hr />
+                <p>ΔΕΥ - ΠΑΡ 8ΠΜ-2ΜΜ</p>
+                <p>ΣΑΒ, ΚΥΡ &nbsp; ΚΛΕΙΣΤΑ</p>
+                <a href="/gr/contact.html">Επικοινωνήστε μαζί μας</a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>Copyright <span id="year">2024</span> &copy | Domifactus | Όλα τα δικαιώματα διατηρούνται</p>
+            <a href="/gr/privacy-policy">Πολιτική Απορρήτου</a>
+        </div>
+    </footer>
+
+    <script type="module">
+
+        import { underline, increaseNav, sandwitch, resize, goToTop, getYear, changeLanguage } from '../index.js';
+
+        underline(6);
+        increaseNav();
+        sandwitch();
+        resize(); 
+        goToTop();
+        getYear();
+        changeLanguage('en', 'contact');
+
+    </script>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <script>
+
+        emailjs.init('pitVKsLiX9xacECGu');
+        const dialog = document.querySelector('#dialog');
+
+        function closeBtn() {
+            dialog.close();
+        }
+
+        document.querySelector('#contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Αποστολή email
+            emailjs.sendForm('service_e4fouvr', 'template_iksrslr', this)
+                .then(function() {
+                    dialog.showModal();
+                }, function(error) {
+                    error = JSON.stringify(error);
+                    dialog.innerHTML = `<h1>Το email δεν στάλθηκε</h1> <p>${error}</p> <button onclick="closeBtn()">Κλείσιμο</button>`;
+                    dialog.showModal();
+                });
+        });
+
+    </script>
+    
+</body>
+</html>

@@ -1,5 +1,5 @@
 :root {
-    --background: #dadada;
+    --background: #e4e4e4;
     --primary: #eaa33a;
     --text: #000000;
     --nav: #ffffff;
@@ -36,19 +36,34 @@ section {
     padding: 20px;
     max-width: 900px;
     margin: 20px auto;
-    background: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* background: #fff; */
     border-radius: 8px;
 }
 
-h2 {
+section h2 {
     color: #444;
     margin-top: 20px;
+    padding-top: 100px;
+    /* background-color: red; */
+    font-size: clamp(30px, 2vw, 40px);
 }
 
-h3 {
+section h3 {
     margin-top: 15px;
     color: #555;
+    /* font-size: clamp(25px, 1.5vw, 35px); */
+}
+
+section p,
+section li {
+    font-size: clamp(16px, 1.5vw, 23px);
+    /* color:red; */
+    /* font-size: 25px; */
+}
+
+section div img {
+    box-shadow: 0px 0px 20px #00000060;
+    border:1px solid rgb(194, 194, 194);
 }
 
 ul {

@@ -1,5 +1,5 @@
 :root {
-    --background: #cfcfcf;
+    --background: #e4e4e4;
     --primary: #eaa33a;
     --text: #000000;
     --nav: #ffffff;
@@ -14,7 +14,7 @@ main {
 
     display: flex;
     flex-wrap: wrap;
-    gap:20px;
+    gap:40px;
     justify-content: center;
     z-index: 0;
 }
