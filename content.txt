@@ -16,3 +16,7 @@ Sustainable Design: From eco-friendly materials to energy-efficient solutions, w
 Rooted in Local Culture: Our designs pay homage to the beauty and history of Rethymno while embracing contemporary elegance.
 Let’s Build Your Dream
 Step into a world where your villa reflects your personality, set against the serene backdrop of Crete. We’re here to turn your vision into a masterpiece.
+
+
+greece:  https://img.icons8.com/fluency/48/greece-circular.png
+englan:  https://img.icons8.com/fluency/48/usa-circular.png

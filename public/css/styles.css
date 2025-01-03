@@ -40,7 +40,8 @@ body::-webkit-scrollbar-thumb {
     right:50px;
     border-radius: 50%;
     background-color: var(--primary);
-    border:2px solid black;
+    /* border:2px solid rgb(99, 99, 99); */
+    border:none;
     padding:12px;
     width:60px;
     height:60px;
@@ -51,7 +52,7 @@ body::-webkit-scrollbar-thumb {
 #top:hover {
     cursor:pointer;
     box-shadow: 0px 0px 15px var(--primary);
-    filter:saturate(2)
+    filter:saturate(2);
 }
 
 #top img {
@@ -127,6 +128,8 @@ body::-webkit-scrollbar-thumb {
     font-size: clamp(16px, 1.5vw, 20px);
     height: 95%;
     align-content: center;
+    /* background-color: red; */
+    border-bottom: 3px solid transparent;
 }
 #main-nav a:hover:not(#logo) {
     border-bottom: 3px solid var(--primary);
@@ -136,6 +139,7 @@ body::-webkit-scrollbar-thumb {
     color: var(--text);
     font-size: clamp(17px, 1.5vw, 20px);
     border: none;
+    border-bottom: 3px solid transparent;
     background-color: transparent;
     font-size: 16px;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
@@ -153,6 +157,15 @@ body::-webkit-scrollbar-thumb {
 #sandwitch img {
     width:55px;
     height:40px;
+}
+
+.change-lang img {
+    border-radius: 50%;
+    width:35px;
+}
+
+.change-lang img:hover {
+    cursor:pointer;
 }
 
 
@@ -239,7 +252,17 @@ body::-webkit-scrollbar-thumb {
     border-radius: 30px;
     font-weight: 900;
     display: inline-block;
+    background-color: #353535a0;
+    transition:all 0.3s;
 }
+#main-header a:hover {
+    background-color: #a37139a0;
+    box-shadow:0px 0px 10px var(--primary);
+    border:1px solid var(--primary);
+    color:#ffffff;
+    text-shadow: none;
+}
+
 
 #main-header img {
     width: 100%;
@@ -254,13 +277,109 @@ body::-webkit-scrollbar-thumb {
 
 
 
+.services-section {
+    text-align: center;
+    padding: 60px 20px 100px;
+    background-color: #ffffff;
+}
+
+.services-section h2 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.services-section p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service-card {
+    background-color: #f0f0f0;
+    width: 320px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+    font-size: 3.5rem;
+    color: #0078D7;
+    margin-bottom: 20px;
+}
+
+.service-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .service-card {
+        width: 100%;
+        max-width: 90%;
+    }
+}
+
+
+
+
+
+
 #featured-projects {
+    width:100%;
+    background-attachment: fixed;
+    background-image: url('https://i0.wp.com/krystaldevelopments.com/wp-content/uploads/2024/04/Edge-House-03.jpg?fit=1800%2C1000&ssl=1');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 100px 0px;
+}
+
+#featured-projects-container {
     display: flex;
     flex-direction: column;
-    gap:70px;
-    width:80%;
-    max-width: 1200px;
-    margin:100px auto 0px;
+    gap:200px;
+
+    width: 90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+#featured-projects h2 {
+    text-align: center;
+    color:white;
+    margin-bottom: 100px;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px black;
+    text-shadow: 3px 3px 3px black;
+    text-shadow: 
+    2px 2px 2px black,
+    -2px -2px 2px black,
+    2px -2px 2px black,
+    -2px 2px 2px black;
 }
 
 #featured-projects .card {
@@ -269,12 +388,16 @@ body::-webkit-scrollbar-thumb {
     aspect-ratio: 3 / 1;
     align-items: center;
     gap: 40px;
+    background-color: #000000cc;
+    color:white;
+
     transition: background-color 0.5s;
     padding:20px;
 }
 #featured-projects .card:hover {
     cursor:pointer;
-    background-color: #0000000a;
+    background-color: #000000;
+
 }
 
 #featured-projects .card img {
@@ -293,8 +416,8 @@ body::-webkit-scrollbar-thumb {
 
 #featured-projects .card div:nth-of-type(1) {
     overflow: hidden;
-    box-shadow: 0px 0px 10px #605d5d9b;
-
+    box-shadow: 0px 0px 10px #3f3f3f9b;
+    height:100%;
 }
 
 #featured-projects .card div:nth-of-type(2) {
@@ -302,7 +425,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 60%;
+    /* height: 60%; */
 }
 
 
@@ -316,16 +439,22 @@ body::-webkit-scrollbar-thumb {
     padding-right:30px;
 }
 
-#featured-projects .card h3 {
-    /* background-color: red; */
+#featured-projects .card h4 {
+    /* background-color: blue; */
     margin-bottom: 0px;
     font-weight: 400;
 }
 
-#featured-projects .card h2 {
+#featured-projects .card h3 {
     /* background-color: red; */
     margin-top: 0px;
     transition: color 0.3s;
+    font-size: clamp(23px, 3vw, 35px);
+
+}
+
+#featured-projects p {
+    font-size: clamp(17px, 2vw, 20px);
 }
 
 
@@ -337,8 +466,8 @@ section.about-us {
     background-color: var(--footer);
     color: var(--background);
     width:100%;
-    margin:100px 0px;
-    padding:100px 0px;
+    margin:0px 0px 50px;
+    padding:40px 0px;
 }
 
 section.about-us h2,
@@ -561,13 +690,15 @@ footer {
     }
 
     #featured-projects .card div:nth-of-type(2) {
-        /* background-color: red; */
+        /* background-color: rgba(168, 53, 53, 0.411); */
     }
 
     #featured-projects .card {
         flex-direction: column-reverse;
         gap:10px;
         margin-top:50px;
+        position: relative;
+        padding-bottom:100px;
     }
 
     #featured-projects .card:nth-of-type(2) {
@@ -578,10 +709,16 @@ footer {
         text-align: left;
     }
 
+    #featured-projects p {
+        position:absolute;
+        bottom:0px;
+        /* background-color: rgba(0, 0, 255, 0.329); */
+    }
+
 }
 
 
-@media (max-width:700px) {
+@media (max-width:780px) {
 
     #main-nav #sandwitch {
         display: block !important;

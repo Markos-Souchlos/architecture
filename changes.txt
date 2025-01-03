@@ -1,11 +1,3 @@
-/contact -> background image
-background color
-primary color
-iframe map on contact
-collapsable navigation
-go to top btn
-font-family
-custom scrollbar
-favicon
+Add Services, Client Reviews, Awards infinite animation, Team, Call to action(like about us section)
 
-serverless website (slow gallery) vs website with server (fast gallery) vs no gallery
+/contact -> background image
