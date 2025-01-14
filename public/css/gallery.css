@@ -6,11 +6,27 @@
     --footer: #1f1f1f;
 }
 
-main {
+body {
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-wallpaper-3d-paper-style_23-2148413572.jpg?t=st=1735987342~exp=1735990942~hmac=f5ecb9edb3dc84ce0307b50f12bf27e4b42f1056c0dfc1cfb23f6ae1fa62a2ef&w=996');
+}
+
+main h1 {
+    margin-top: 200px;
+    text-align: center;
+    color:black;
+    /* opacity: 0; */
+    position:relative;
+}
+
+main p {
+    text-align: center;
+    /* opacity: 0; */
+}
+
+#photo-container {
     width:85%;
     max-width: 1400px;
-    /* background-color: #a005; */
-    margin: 200px auto 100px;
+    margin: 50px auto 100px;
 
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +36,6 @@ main {
 }
 
 .card {
-    /* background-color: yellow; */
     width:30%;
     min-width: 200px;
     max-width: 450px;
@@ -39,10 +54,9 @@ main {
     width:100%;
     height: 100%;
     transition: transform 0.2s;
+    border-radius: 10px;
+    border:1px solid rgb(126, 126, 126);
 }
-/* .card img:hover {
-    transform: scale(1.1);
-} */
 
 .card p {
     box-sizing: border-box;
@@ -55,6 +69,23 @@ main {
     font-size: clamp(14px, 2vw, 20px);
     overflow: hidden;
     transition: bottom 0.2s;
+}
+
+#load-more {
+    padding:10px;
+    background-color: var(--footer);
+    border:none;
+    border-radius: 8px;
+    color:white;
+    font-weight: 900;
+    position: relative;
+    bottom:50px;
+    left:50%;
+    transform: translateX(-50%);
+}
+#load-more:hover {
+    cursor:pointer;
+    color: var(--primary) ;
 }
 
 

@@ -1,3 +1,7 @@
 Add Services, Client Reviews, Awards infinite animation, Team, Call to action(like about us section)
 
 /contact -> background image
+
+Add paragraph to about-us section
+Enable Observer reloader
+Make gallery pretier

@@ -56,25 +56,25 @@
 
             <div class="services-container">
                 
-                <div class="service-card">
+                <div class="service-card hidden">
                     <div class="service-icon">🏙️</div>
                     <h3 class="service-title">Urban Planning</h3>
                     <p class="service-description">Designing functional and aesthetic urban spaces that enhance community living.</p>
                 </div>
                 
-                <div class="service-card">
+                <div class="service-card hidden">
                     <div class="service-icon">🏡</div>
                     <h3 class="service-title">Residential Design</h3>
                     <p class="service-description">Crafting modern, sustainable homes that align with your lifestyle and aspirations.</p>
                 </div>
                 
-                <div class="service-card">
+                <div class="service-card hidden">
                     <div class="service-icon">🏢</div>
                     <h3 class="service-title">Commercial Architecture</h3>
                     <p class="service-description">Creating innovative and efficient commercial spaces to meet your business needs.</p>
                 </div>
                 
-                <div class="service-card">
+                <div class="service-card hidden">
                     <div class="service-icon">🌳</div>
                     <h3 class="service-title">Landscape Design</h3>
                     <p class="service-description">Transforming outdoor spaces into functional and visually stunning landscapes.</p>
@@ -118,7 +118,8 @@
 
         <section class="about-us">
             <h2>Creating Homes That Connect with Nature and Culture</h2>
-            <p>For 14 years, we’ve been designing villas that blend modern elegance with Rethymno’s local charm. Our work prioritizes sustainability, creating spaces that respect both the environment and the island’s cultural heritage.Specializing in new builds, we craft personalized, energy-efficient designs that harmonize with Crete’s natural beauty. Let us turn your vision into a timeless retreat.</p>
+            <p>For 14 years, we’ve been designing villas that blend modern elegance with Rethymno’s local charm. Our work prioritizes sustainability, creating spaces that respect both the environment and the island’s cultural heritage.</p>
+            <p>Specializing in new builds, we craft personalized, energy-efficient designs that harmonize with Crete’s natural beauty. Let us turn your vision into a timeless retreat.</p>
             <div>
                 <a href="/en/about.html">Learn more about us</a>
             </div>
@@ -205,9 +206,21 @@
             card.addEventListener('mouseout', () => {
                 card.children[0].children[0].style.transform = 'scale(1)';
                 // card.children[1].children[1].style.color = '#000';
-                card.children[1].children[1].style.color = '#fff';
+                card.children[1].children[1].style.color = '#000';
             })
         });
+
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        });
+        
+        const hiddenElements = document.querySelectorAll('.hidden');
+        hiddenElements.forEach(el =>  observer.observe(el));
 
     </script>
     
