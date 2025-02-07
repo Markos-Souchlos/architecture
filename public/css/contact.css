@@ -9,8 +9,7 @@
 
 form {
     padding:160px 0px 120px;
-    background-image: url('/public/assets/Buildings/Project_02/Εικόνα_7.jpg');
-    background-image: url('/public/assets/Buildings/Project_04/Εικόνα_8.png');
+    background-image: url('./public/assets/Buildings/Project_04/Εικόνα_8.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -84,7 +84,7 @@ export function changeLanguage(lang, page) {
     document.querySelectorAll('.change-lang').forEach(element => {
         element.addEventListener('click', () => {
             // console.log('index.js works');
-            window.location.href = `/${lang}/${page}.html`;
+            window.location.href = `/architecture/${lang}/${page}.html`;
         })
     });
 }
