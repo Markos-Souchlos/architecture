@@ -1,4 +1,56 @@
-Έργο :            ΝΕΑ ΚΑΤΟΙΚΙΑ ΣΕ ΕΠΙΠΕΔΑ ΜΕ ΤΜΗΜΑ ΥΠΟΓΕΙΟΥ ΚΑΙ ΚΟΛΥΜΒΗΤΙΚΗ ΔΕΞΑΜΕΝΗ 
+<header>
+    <h1>Charming Villa in Agios Georgios</h1>
+    <p><strong>Location:</strong> Agios Georgios, Chania, Crete, Greece</p>
+    <p><strong>Type:</strong> Luxury Residential Villa</p>
+    <p><strong>Completion Year:</strong> 2024</p>
+    <p><strong>Architectural Style:</strong> Traditional Mediterranean with Modern Elegance</p>
+    <p><strong>Size:</strong> 400 sqm</p>
+</header>
 
+<section id="overview">
+    <h2>Project Overview</h2>
+    <p>The Charming Villa in Agios Georgios is a stunning residential property located in the peaceful countryside of Chania, Crete. Surrounded by olive groves and rolling hills, this 400 sqm villa is designed to blend traditional Mediterranean architecture with modern comforts. It offers a perfect retreat for families and individuals seeking a serene yet luxurious living experience close to nature.</p>
+</section>
 
-Διεύθυνση :  ΕΙΔΙΚΗ ΤΟΠΟΘΕΣΙΑ "ΣΟΧΩΡΑ'' ΚΤΗΜ. ΠΕΡΙΦ. ΤΟΠ. ΚΟΙΝΟΤ. ΣΕΛΛΙΩΝ, ΔΗΜΟΤ. ΕΝΟΤΗΤΑ ΦΟΙΝΙΚΑ ΔΗΜΟΣ ΑΓΙΟΥ ΒΑΣΙΛΕΙΟΥ, ΠΕΡΙΦΕΡΕΙΑΚΗ ΕΝΟΤΗΤΑ ΡΕΘΥΜΝΗΣ, ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ
+<section id="design-concept">
+    <h2>Design Concept</h2>
+    <p>The villa’s design embraces the charm of Crete’s traditional architecture, featuring stone walls, tiled roofs, and wooden beams. Modern elements, such as expansive glass doors and minimalist interiors, are seamlessly integrated to create a harmonious living space. The warm tones and natural materials reflect the surrounding landscape, while the open-plan layout emphasizes light and space.</p>
+    <p>Outdoor living is a key focus, with shaded terraces, a private pool, and landscaped gardens that connect residents to the beauty of the Cretan countryside. The use of sustainable materials and energy-efficient systems ensures a balance between luxury and environmental responsibility.</p>
+</section>
+
+<section id="interior-features">
+    <h2>Interior Features</h2>
+    <ul>
+        <li><strong>Open-Plan Living Areas:</strong> A spacious living and dining area with large windows that frame the stunning views.</li>
+        <li><strong>Modern Kitchen:</strong> A fully equipped kitchen with high-end appliances and elegant finishes.</li>
+        <li><strong>Luxurious Bedrooms:</strong> Four en-suite bedrooms with private terraces offer comfort and privacy.</li>
+        <li><strong>Cozy Fireplace:</strong> A traditional stone fireplace adds warmth and charm to the living area.</li>
+        <li><strong>Smart Home Technology:</strong> Advanced systems for climate control, lighting, and security enhance convenience.</li>
+    </ul>
+</section>
+
+<section id="exterior-landscape">
+    <h2>Exterior & Landscape</h2>
+    <p>The villa’s outdoor spaces are thoughtfully designed to complement its rural setting and provide an inviting environment for relaxation.</p>
+    <ul>
+        <li><strong>Private Pool:</strong> A large pool surrounded by sun loungers and lush greenery offers a serene escape.</li>
+        <li><strong>Shaded Outdoor Dining:</strong> A pergola-covered dining area is perfect for al fresco meals.</li>
+        <li><strong>Landscaped Gardens:</strong> Native plants, olive trees, and stone pathways create a tranquil ambiance.</li>
+    </ul>
+</section>
+
+<section id="sustainability-innovation">
+    <h2>Sustainability & Innovation</h2>
+    <p>The Charming Villa in Agios Georgios incorporates eco-friendly practices and modern technologies to promote sustainability.</p>
+    <ul>
+        <li><strong>Solar Panels:</strong> Renewable energy supports the villa’s electrical needs.</li>
+        <li><strong>Rainwater Harvesting:</strong> A system collects and recycles water for irrigation.</li>
+        <li><strong>Natural Ventilation:</strong> The villa’s design maximizes airflow, reducing the need for air conditioning.</li>
+    </ul>
+</section>
+
+<section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>The Charming Villa in Agios Georgios is a perfect blend of traditional Mediterranean charm and modern luxury. Nestled in the idyllic countryside of Chania, this villa offers a peaceful and refined living experience, ideal for those seeking tranquility and elegance in Crete.</p>
+    <p>For more information about this project, contact us at <a href="mailto:domifactus@yahoo.gr">domifactus@yahoo.gr</a> or visit our studio in Rethymno, Crete.</p>
+</section>

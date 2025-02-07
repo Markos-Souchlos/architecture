@@ -1,0 +1,80 @@
+main {
+    /* background-color: red; */
+    margin: 200px auto 150px;
+    width:95%;
+    text-align: center;
+}
+
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-wallpaper-3d-paper-style_23-2148413572.jpg?t=st=1735987342~exp=1735990942~hmac=f5ecb9edb3dc84ce0307b50f12bf27e4b42f1056c0dfc1cfb23f6ae1fa62a2ef&w=996');
+}
+
+#projects-container {
+    /* background-color: blue; */
+    text-align: left;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+main h1 {
+    margin:100px;
+    font-size: clamp(25px, 4.5vw, 50px);
+    /* background-color: pink; */
+}
+
+main h2 {
+    margin-bottom: 0px;
+}
+
+main p {
+    margin-top: 10px;
+    color: rgb(78, 78, 78);
+    font-size: 16px;
+}
+
+#projects-container div {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    margin-bottom: 50px;
+}
+
+#projects-container img {
+    width:100%;
+    aspect-ratio: 5 / 3;
+    object-fit: cover;
+    object-position: center;
+    transition: all 200ms linear;
+}
+#projects-container img:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+
+    #projects-container div {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:570px) {
+
+    #projects-container div {
+        flex: 1 1 calc(100%);
+        max-width: calc(100%);
+        margin-bottom: 50px;
+    }
+}

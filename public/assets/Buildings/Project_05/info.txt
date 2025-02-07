@@ -1,5 +1,56 @@
-Έργο :            ΝΕΑ ΔΙΩΡΟΦΗ ΚΑΤΟΙΚΙΑ ΜΕ ΤΜΗΜΑ ΥΠΟΓΕΙΟΥ ΚΑΙ ΚΟΛΥΜΒΗΤΙΚΗ ΔΕΞΑΜΕΝΗ 
+<header>
+    <h1>Modern Townhouse in Heraklion</h1>
+    <p><strong>Location:</strong> Heraklion, Crete, Greece</p>
+    <p><strong>Type:</strong> Luxury Residential Townhouse</p>
+    <p><strong>Completion Year:</strong> 2025</p>
+    <p><strong>Architectural Style:</strong> Contemporary Urban Design with Mediterranean Influences</p>
+    <p><strong>Size:</strong> 320 sqm</p>
+</header>
 
+<section id="overview">
+    <h2>Project Overview</h2>
+    <p>The Modern Townhouse in Heraklion is a cutting-edge residential project located in the vibrant capital of Crete. Designed with a focus on urban sophistication and Mediterranean charm, this 320 sqm townhouse offers an elegant living experience. The property seamlessly integrates modern amenities, sustainable features, and timeless architectural elements, making it an ideal choice for families and professionals seeking a luxurious city lifestyle.</p>
+</section>
 
-Διεύθυνση :  ΕΙΔΙΚΗ ΤΟΠΟΘΕΣΙΑ "ΠΥΡΓΟΣ'' ΚΤΗΜ. ΠΕΡΙΦΕΡΕΙΑ Τ.Κ. ΣΕΛΛΙΩΝ, ΔΗΜΟΤΙΚΗ ΕΝΟΤΗΤΑ  
-                        ΦΟΙΝΙΚΑ ΔΗΜΟΣ ΑΓΙΟΥ ΒΑΣΙΛΕΙΟΥ, Π.Ε. ΡΕΘΥΜΝΗΣ, ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ
+<section id="design-concept">
+    <h2>Design Concept</h2>
+    <p>The Modern Townhouse in Heraklion embodies contemporary urban living while respecting the cultural and architectural heritage of Crete. Its design highlights clean lines, open spaces, and high-quality materials, with a neutral color palette that complements the city’s aesthetic. Large windows and sliding glass doors bring in natural light and create a seamless connection between indoor and outdoor spaces.</p>
+    <p>The townhouse is designed with sustainability in mind, featuring energy-efficient systems and locally sourced materials. The rooftop terrace and private garden provide a balance between urban convenience and serene outdoor living.</p>
+</section>
+
+<section id="interior-features">
+    <h2>Interior Features</h2>
+    <ul>
+        <li><strong>Open-Concept Living:</strong> A spacious and fluid layout connects the living, dining, and kitchen areas for a cohesive and functional design.</li>
+        <li><strong>Premium Finishes:</strong> Interiors feature high-quality materials such as natural stone, wood, and sleek modern fixtures.</li>
+        <li><strong>Luxurious Bedrooms:</strong> Three en-suite bedrooms offer comfort, privacy, and stunning views of the surrounding cityscape.</li>
+        <li><strong>Smart Home Integration:</strong> Advanced smart home technology controls lighting, security, and climate for ultimate convenience.</li>
+        <li><strong>Private Wellness Space:</strong> A home gym and relaxation area provide a personal retreat within the townhouse.</li>
+    </ul>
+</section>
+
+<section id="exterior-landscape">
+    <h2>Exterior & Landscape</h2>
+    <p>The townhouse's exterior and outdoor spaces are thoughtfully designed to enhance urban living while providing private retreats.</p>
+    <ul>
+        <li><strong>Rooftop Terrace:</strong> A private rooftop area offers breathtaking views of Heraklion and serves as a perfect space for entertaining or relaxing.</li>
+        <li><strong>Private Garden:</strong> A landscaped garden with native Mediterranean plants adds a touch of nature to the urban environment.</li>
+        <li><strong>Modern Façade:</strong> The townhouse features a striking façade with clean geometric lines and natural textures.</li>
+    </ul>
+</section>
+
+<section id="sustainability-innovation">
+    <h2>Sustainability & Innovation</h2>
+    <p>The Modern Townhouse in Heraklion incorporates sustainable practices and innovative technologies to create an environmentally friendly living space.</p>
+    <ul>
+        <li><strong>Energy-Efficient Systems:</strong> High-performance insulation, solar panels, and energy-efficient appliances reduce energy consumption.</li>
+        <li><strong>Rainwater Collection:</strong> A rainwater harvesting system supports irrigation and reduces water usage.</li>
+        <li><strong>Passive Cooling:</strong> Strategic design elements such as cross-ventilation and shading minimize reliance on air conditioning.</li>
+    </ul>
+</section>
+
+<section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>The Modern Townhouse in Heraklion is a stunning example of contemporary urban living, combining luxury, sustainability, and the charm of Crete’s cultural heritage. Perfectly situated in the heart of the city, it offers the ideal balance of convenience, elegance, and tranquility.</p>
+    <p>For more information about this project, contact us at <a href="mailto:domifactus@yahoo.gr">domifactus@yahoo.gr</a> or visit our studio in Rethymno, Crete.</p>
+</section>

@@ -1,3 +1,56 @@
-Έργο :           ΝΕΑ ΔΙΩΡΟΦΗ ΚΑΤΟΙΚΙΑ ΜΕ ΥΠΟΓΕΙΟ ΚΑΙ ΚΟΛ.ΔΕΞΑΜΕΝΗ
+<header>
+    <h1>Luxury Retreat in Margarites</h1>
+    <p><strong>Location:</strong> Margarites, Rethymno, Crete, Greece</p>
+    <p><strong>Type:</strong> Luxury Residential Retreat</p>
+    <p><strong>Completion Year:</strong> 2025</p>
+    <p><strong>Architectural Style:</strong> Modern Elegance with Traditional Cretan Influences</p>
+    <p><strong>Size:</strong> 480 sqm</p>
+</header>
 
-Διεύθυνση :  ΘΕΣΗ «ΠΥΡΓΙΟΛΙΚΙ» ΕΚΤΟΣ ΟΙΚΙΣΜΟΥ ΡΟΥΣΣΟΣΠΙΤΙΟΥ, Κ.ΡΟΥΣΣΟΣΠΙΤΙΟΥ, Δ.Ε ΡΕΘΥΜΝΟΥ, ΔΗΜΟΣ ΡΕΘΥΜΝΟΥ, ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΕΝΟΤΗΤΑΣ ΡΕΘΥΜΝΗΣ, ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ
+<section id="overview">
+    <h2>Project Overview</h2>
+    <p>Luxury Retreat in Margarites is a sophisticated residence set amidst the picturesque village of Margarites, Rethymno. This exceptional retreat merges timeless Cretan architecture with modern design, creating a peaceful haven. With expansive views of the surrounding hills and Mediterranean landscapes, this 480 sqm property offers unparalleled comfort, luxury, and sustainability for those seeking a unique living experience.</p>
+</section>
+
+<section id="design-concept">
+    <h2>Design Concept</h2>
+    <p>The concept behind Luxury Retreat in Margarites was to embrace the tranquility of the Cretan countryside while offering contemporary luxury. The design combines clean modern lines with rustic elements, such as natural stone facades and wooden accents, to blend seamlessly with the traditional architecture of Margarites. The interior is designed with an open-plan layout and large windows that frame the stunning surroundings.</p>
+    <p>Outdoor-indoor transitions are seamless, with sliding glass doors opening onto expansive terraces, a luxurious infinity pool, and Mediterranean gardens. Sustainability is key, with locally sourced materials and innovative energy-efficient solutions integrated into the design.</p>
+</section>
+
+<section id="interior-features">
+    <h2>Interior Features</h2>
+    <ul>
+        <li><strong>Open-Concept Living:</strong> A harmonious connection between the living, dining, and kitchen areas allows for easy flow and natural light.</li>
+        <li><strong>Custom Interiors:</strong> High-quality materials such as handcrafted wood, natural stone, and fine textiles create an inviting ambiance.</li>
+        <li><strong>Luxury Bedrooms:</strong> Four en-suite bedrooms with private balconies offer serene views and a cozy retreat.</li>
+        <li><strong>Smart Living:</strong> Equipped with smart home features, the retreat allows for convenient control of lighting, climate, and security.</li>
+        <li><strong>Private Wellness Area:</strong> A spa featuring a sauna, jacuzzi, and relaxation zone ensures the utmost comfort.</li>
+    </ul>
+</section>
+
+<section id="exterior-landscape">
+    <h2>Exterior & Landscape</h2>
+    <p>The outdoor spaces are crafted to immerse residents in the natural beauty of Margarites.</p>
+    <ul>
+        <li><strong>Infinity Pool:</strong> A striking infinity-edge pool overlooks the rolling hills, offering a tranquil experience.</li>
+        <li><strong>Outdoor Living Areas:</strong> Shaded terraces, a fire pit, and an outdoor dining space provide ideal spots for gatherings.</li>
+        <li><strong>Mediterranean Gardens:</strong> Landscaped with native plants, the gardens enhance the villa’s integration with its environment while reducing water usage.</li>
+    </ul>
+</section>
+
+<section id="sustainability-innovation">
+    <h2>Sustainability & Innovation</h2>
+    <p>The retreat prioritizes sustainability through the use of environmentally friendly materials and energy-efficient solutions.</p>
+    <ul>
+        <li><strong>Solar Power:</strong> Solar panels provide renewable energy for daily needs.</li>
+        <li><strong>Rainwater Management:</strong> A harvesting system repurposes rainwater for irrigation and non-potable use.</li>
+        <li><strong>Passive Design:</strong> Thoughtful orientation and cross-ventilation reduce energy consumption.</li>
+    </ul>
+</section>
+
+<section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>The Luxury Retreat in Margarites is a harmonious blend of traditional Cretan charm and modern sophistication. Designed for those who value luxury, sustainability, and a connection to nature, this exquisite property redefines countryside living in Crete.</p>
+    <p>For more information about this project, contact us at <a href="mailto:domifactus@yahoo.gr">domifactus@yahoo.gr</a> or visit our studio in Rethymno, Crete.</p>
+</section>

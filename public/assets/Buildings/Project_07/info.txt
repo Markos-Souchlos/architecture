@@ -1,7 +1,56 @@
-Έργο :             ΔΙΩΡΟΦΟ ΚΤΙΡΙΟ ΤΟΥΡΙΣΤΙΚΩΝ ΕΠΙΠΛΩΜΕΝΩΝ ΔΙΑΜΕΡΙΣΜΑΤΩΝ (ΜΗ ΚΥΡΙΟ ΤΟΥΡΙΣΤΙΚΟ ΚΑΤΑΛΥΜΜΑ) ΜΕ
-                       ΥΠΟΓΕΙΟ ΚΑΙ ΚΟΛΥΜΒΗΤΙΚΗ ΔΕΞΑΜΕΝΗ 
+<header>
+    <h1>Eco-Friendly Home in Sissi</h1>
+    <p><strong>Location:</strong> Sissi, Lasithi, Crete, Greece</p>
+    <p><strong>Type:</strong> Sustainable Residential Home</p>
+    <p><strong>Completion Year:</strong> 2025</p>
+    <p><strong>Architectural Style:</strong> Eco-Minimalism with Mediterranean Influences</p>
+    <p><strong>Size:</strong> 400 sqm</p>
+</header>
 
+<section id="overview">
+    <h2>Project Overview</h2>
+    <p>The Eco-Friendly Home in Sissi is a sustainable residential project nestled in the tranquil coastal village of Sissi, Lasithi. Designed to harmonize with its natural surroundings, this 400 sqm property offers breathtaking sea views, environmentally conscious features, and luxurious modern living. The home combines contemporary eco-minimalist design with traditional Mediterranean charm, making it a unique and inspiring retreat.</p>
+</section>
 
-Διεύθυνση :  ΕΙΔΙΚΗ ΤΟΠΟΘΕΣΙΑ ''ΑΓΙΟΣ ΣΤΕΦΑΝΟΣ' , ΕΚΤΟΣ ΟΙΚΙΣΜΟΥ ΣΕΛΛΙΑ, ΕΝΤΟΣ ΖΩΝΗΣ
-                       500Μ ΤΟΥ ΟΙΚΙΣΜΟΥ , ΔΗΜΟΤΙΚΗ ΕΝΟΤΗΤΑ ΦΟΙΝΙΚΑ, ΔΗΜΟΣ ΑΓΙΟΥ ΒΑΣΙΛΕΙΟΥ, ΠΕΡΙΦΕΡΕΙΑΚΗ ΕΝΟΤΗΤΑ
-                       ΡΕΘΥΜΝΗΣ, ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ
+<section id="design-concept">
+    <h2>Design Concept</h2>
+    <p>The vision for the Eco-Friendly Home in Sissi was to create a sustainable residence that maximizes comfort while minimizing its environmental impact. Clean lines, soft neutral tones, and locally sourced materials define the home’s aesthetic. The use of large windows and glass doors ensures an abundance of natural light and seamless integration with the surrounding environment.</p>
+    <p>Outdoor-indoor connectivity is prioritized with open spaces, terraces, and gardens that celebrate the beauty of the Mediterranean landscape. Sustainability is at the heart of the design, incorporating green building materials and energy-efficient systems throughout.</p>
+</section>
+
+<section id="interior-features">
+    <h2>Interior Features</h2>
+    <ul>
+        <li><strong>Open-Plan Design:</strong> The living, dining, and kitchen areas flow seamlessly, creating a spacious and welcoming atmosphere.</li>
+        <li><strong>Natural Materials:</strong> Interiors feature eco-friendly wood, stone, and finishes that enhance the home’s warmth and elegance.</li>
+        <li><strong>Eco-Luxury Bedrooms:</strong> Three en-suite bedrooms offer private balconies with views of the sea and surrounding greenery.</li>
+        <li><strong>Smart Eco Systems:</strong> The home is equipped with smart controls for lighting, temperature, and energy usage, promoting sustainable living.</li>
+        <li><strong>Wellness Space:</strong> A dedicated wellness area with a yoga studio and meditation room enhances relaxation and mindfulness.</li>
+    </ul>
+</section>
+
+<section id="exterior-landscape">
+    <h2>Exterior & Landscape</h2>
+    <p>The outdoor spaces are designed to foster a connection with nature while maintaining an eco-conscious focus.</p>
+    <ul>
+        <li><strong>Natural Pool:</strong> A chemical-free natural pool blends beautifully with the landscape, providing a serene swimming experience.</li>
+        <li><strong>Outdoor Living Areas:</strong> Shaded patios, an al fresco dining area, and a fire pit offer perfect spots for relaxation and entertaining.</li>
+        <li><strong>Sustainable Gardens:</strong> Landscaped with native plants and drought-resistant vegetation, the gardens minimize water use and enhance biodiversity.</li>
+    </ul>
+</section>
+
+<section id="sustainability-innovation">
+    <h2>Sustainability & Innovation</h2>
+    <p>This home incorporates cutting-edge sustainable features to promote energy efficiency and reduce environmental impact.</p>
+    <ul>
+        <li><strong>Solar Energy:</strong> Solar panels provide clean, renewable energy for the home’s needs.</li>
+        <li><strong>Rainwater Harvesting:</strong> A system collects and recycles rainwater for irrigation and domestic use.</li>
+        <li><strong>Passive Cooling Design:</strong> Strategically placed windows and shading reduce the need for mechanical cooling systems.</li>
+    </ul>
+</section>
+
+<section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>The Eco-Friendly Home in Sissi redefines sustainable luxury living, offering a harmonious blend of modern design, eco-conscious features, and breathtaking natural surroundings. This property is perfect for those seeking a balance between elegance, comfort, and environmental responsibility.</p>
+    <p>For more information about this project, contact us at <a href="mailto:domifactus@yahoo.gr">domifactus@yahoo.gr</a> or visit our studio in Rethymno, Crete.</p>
+</section>

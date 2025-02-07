@@ -1,3 +1,56 @@
-Έργο :            ΔΥΟ ΝΕΕΣ  ΙΣΟΓΕΙΕΣ ΚΑΤΟΙΚΙΕΣ ΜΕ ΥΠΟΓΕΙΟ
+<header>
+    <h1>Beachfront Villa in Platanias</h1>
+    <p><strong>Location:</strong> Platanias, Chania, Crete, Greece</p>
+    <p><strong>Type:</strong> Luxury Beachfront Villa</p>
+    <p><strong>Completion Year:</strong> 2025</p>
+    <p><strong>Architectural Style:</strong> Modern Coastal Design with Mediterranean Influences</p>
+    <p><strong>Size:</strong> 550 sqm</p>
+</header>
 
-Διεύθυνση:	ΕΙΔΙΚΗ ΤΟΠΟΘΕΣΙΑ ''ΡΙΖΟΜΟΔΕ'', ΕΝΤΟΣ ΖΩΝΗΣ 800 ΜΕΤΡΩΝ ΟΙΚΙΣΜΟΥ ΛΕΥΚΟΓΕΙΑ,  ΤΗΣ ΔΗΜΟΤΙΚΗΣ ΕΝΟΤΗΤΑΣ ΦΟΙΝΙΚΑ, ΔΗΜΟΥ ΑΓΙΟΥ ΒΑΣΙΛΕΙΟΥ, ΠΕΡΙΦΕΡΕΙΑΚΗ ΕΝΟΤΗΤΑ ΡΕΘΥΜΝΟΥ, ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ
+<section id="overview">
+    <h2>Project Overview</h2>
+    <p>The Beachfront Villa in Platanias is an exquisite property located on the pristine coastline of Chania. This luxurious 550 sqm residence offers direct beach access, breathtaking sea views, and world-class amenities. Combining modern coastal architecture with Mediterranean charm, the villa is designed as a tranquil retreat for relaxation and indulgence. With seamless indoor-outdoor living spaces, the villa provides an unparalleled beachfront experience.</p>
+</section>
+
+<section id="design-concept">
+    <h2>Design Concept</h2>
+    <p>The design of the Beachfront Villa in Platanias celebrates the beauty of its coastal surroundings while offering a modern and luxurious living environment. The villa features open layouts, expansive glass facades, and a neutral color palette inspired by the natural tones of sand and sea. Locally sourced materials such as stone and wood enhance its connection to the environment.</p>
+    <p>Key design elements include large sliding glass doors that open to spacious terraces, infinity pools that appear to merge with the sea, and landscaped gardens that reflect the villa’s eco-conscious ethos. The result is a harmonious blend of sophistication and nature.</p>
+</section>
+
+<section id="interior-features">
+    <h2>Interior Features</h2>
+    <ul>
+        <li><strong>Open-Plan Living Areas:</strong> The villa’s interior features seamless transitions between living, dining, and kitchen spaces, all with panoramic sea views.</li>
+        <li><strong>Luxury Bedrooms:</strong> Five en-suite bedrooms with private terraces and large windows create serene, light-filled retreats.</li>
+        <li><strong>Custom-Designed Interiors:</strong> Premium materials such as marble, wood, and glass are used throughout, reflecting timeless elegance.</li>
+        <li><strong>Smart Home Technology:</strong> Advanced automation systems control lighting, climate, and security, providing modern convenience.</li>
+        <li><strong>Spa and Wellness Area:</strong> A private spa with a sauna, indoor pool, and yoga space ensures complete relaxation.</li>
+    </ul>
+</section>
+
+<section id="exterior-landscape">
+    <h2>Exterior & Landscape</h2>
+    <p>The villa’s outdoor spaces are designed to embrace the beauty of the Mediterranean coastline while offering luxurious functionality.</p>
+    <ul>
+        <li><strong>Infinity Pool:</strong> A stunning infinity-edge pool blends seamlessly with the sea, offering breathtaking views.</li>
+        <li><strong>Outdoor Living Spaces:</strong> Shaded terraces, a beachfront lounge, and an al fresco dining area make this villa perfect for entertaining.</li>
+        <li><strong>Landscaped Gardens:</strong> The gardens feature native plants and eco-friendly irrigation systems to complement the natural surroundings.</li>
+    </ul>
+</section>
+
+<section id="sustainability-innovation">
+    <h2>Sustainability & Innovation</h2>
+    <p>Built with sustainability in mind, the Beachfront Villa in Platanias incorporates innovative eco-friendly solutions to minimize its environmental impact.</p>
+    <ul>
+        <li><strong>Solar Power:</strong> Solar panels provide renewable energy for much of the villa’s needs.</li>
+        <li><strong>Rainwater Collection:</strong> A rainwater harvesting system supports irrigation and reduces water waste.</li>
+        <li><strong>Passive Cooling Design:</strong> Strategic placement of windows and natural shading minimizes energy consumption.</li>
+    </ul>
+</section>
+
+<section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>The Beachfront Villa in Platanias offers the ultimate coastal living experience, combining luxury, sustainability, and natural beauty. Perfectly positioned on the shores of Chania, this exceptional property redefines beachfront elegance with its thoughtful design and world-class amenities.</p>
+    <p>For more information about this project, contact us at <a href="mailto:domifactus@yahoo.gr">domifactus@yahoo.gr</a> or visit our studio in Rethymno, Crete.</p>
+</section>

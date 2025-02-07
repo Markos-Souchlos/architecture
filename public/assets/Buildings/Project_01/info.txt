@@ -1,4 +1,57 @@
-Έργο: 	ΝΕΑ ΤΟΥΡΙΣΤΙΚΗ ΚΑΤΟΙΚΙΑ ΣΕ ΕΠΙΠΕΔΑ ΜΕ ΤΜΗΜΑ ΥΠΟΓΕΙΟΥ ΚΑΙ ΚΟΛΥΜΒΗΤΙΚΗ
-                 	ΔΕΞΑΜΕΝΗ
+<header>
+    <h1>Villa Horizon</h1>
+    <p><strong>Location:</strong> Elounda, Crete, Greece</p>
+    <p><strong>Type:</strong> Luxury Residential Villa</p>
+    <p><strong>Completion Year:</strong> 2024</p>
+    <p><strong>Architectural Style:</strong> Modern Minimalism with Mediterranean Influences</p>
+    <p><strong>Size:</strong> 450 sqm</p>
+</header>
 
-Διεύθυνση: ΕΙΔΙΚΗ ΤΟΠΟΘΕΣΙΑ ''ΜΥΡΤΑΡΕΣ'', ΕΚΤΟΣ ΟΡΙΩΝ ΟΙΚΙΣΜΟΥ, ΚΤΗΜΑΤΙΚΗ ΠΕΡΙΦΕΡΕΙΑ ΚΟΙΝΟΤΗΤΑΣ ΣΕΛΛΙΩΝ, ΔΗΜΟΤΙΚΗ ΕΝΟΤΗΤΑ ΦΟΙΝΙΚΑ , ΔΗΜΟΣ ΑΓΙΟΥ ΒΑΣΙΛΕΙΟΥ, ΠΕΡΙΦΕΡΕΙΑΚΗ ΕΝΟΤΗΤΑ ΡΕΘΥΜΝΟΥ, ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ
+<section id="overview">
+    <h2>Project Overview</h2>
+    <p>Villa Horizon is a stunning architectural masterpiece located on the scenic coastline of Elounda, Crete. Designed as a seamless blend of luxury, comfort, and sustainability, the villa embraces open spaces, natural light, and breathtaking sea views. The project harmoniously integrates modern minimalist aesthetics with traditional Mediterranean elements to create an elegant retreat.</p>
+</section>
+
+<section id="design-concept">
+    <h2>Design Concept</h2>
+    <p>The architectural vision behind Villa Horizon was to craft a residence that not only enhances the natural beauty of its surroundings but also offers a tranquil, immersive experience for its occupants. The design features clean geometric lines, expansive glass facades, and a neutral color palette that complements the rugged coastal landscape.</p>
+    <p>A key design element is the seamless indoor-outdoor transition, achieved through full-height sliding glass doors that open up to panoramic terraces, infinity pools, and lush gardens. The use of locally sourced stone and sustainable materials ensures an eco-friendly footprint while maintaining a timeless aesthetic.</p>
+</section>
+
+<section id="interior-features">
+    <h2>Interior Features</h2>
+    <ul>
+        <li><strong>Open-Plan Living Spaces:</strong> The interior layout fosters a fluid connection between the living, dining, and kitchen areas, maximizing natural ventilation and light.</li>
+        <li><strong>Custom Furnishings:</strong> Bespoke furniture pieces crafted from high-quality wood, marble, and metal add sophistication and warmth.</li>
+        <li><strong>Luxury Bedrooms:</strong> Each of the five en-suite bedrooms is designed as a private sanctuary, featuring large windows that frame the stunning sea views.</li>
+        <li><strong>Smart Home Technology:</strong> The villa is equipped with state-of-the-art automation systems for lighting, climate control, and security.</li>
+        <li><strong>Spa & Wellness Area:</strong> A private wellness retreat with a sauna, jacuzzi, and meditation space enhances relaxation and well-being.</li>
+    </ul>
+</section>
+
+<section id="exterior-landscape">
+    <h2>Exterior & Landscape</h2>
+    <p>The outdoor spaces are thoughtfully designed to embrace the villa’s surroundings.</p>
+    <ul>
+        <li><strong>Infinity Pool:</strong> A stunning infinity-edge pool visually merges with the horizon, offering an unparalleled experience of serenity.</li>
+        <li><strong>Outdoor Lounge & Dining:</strong> Shaded terraces, a fire pit, and an al fresco dining area create the perfect setting for social gatherings.</li>
+        <li><strong>Sustainable Landscaping:</strong> Native Mediterranean plants and drought-resistant vegetation reduce water consumption and integrate seamlessly into the natural terrain.</li>
+    </ul>
+</section>
+
+<section id="sustainability-innovation">
+    <h2>Sustainability & Innovation</h2>
+    <p>Villa Horizon is built with sustainability in mind, incorporating energy-efficient solutions and environmentally responsible materials.</p>
+    <ul>
+        <li><strong>Solar Panels:</strong> Renewable energy sources power much of the villa’s energy needs.</li>
+        <li><strong>Rainwater Harvesting:</strong> A system collects and reuses rainwater for irrigation and general use.</li>
+        <li><strong>Passive Cooling Design:</strong> The strategic orientation of the villa minimizes heat gain, reducing reliance on air conditioning.</li>
+    </ul>
+</section>
+
+<section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>Villa Horizon is more than just a luxury residence—it is a testament to thoughtful design, sustainability, and seamless integration with nature. This architectural gem offers a refined, peaceful living experience, redefining modern coastal elegance.</p>
+    <p>For more information about this project, contact us at <a href="mailto:domifactus@yahoo.gr">domifactus@yahoo.gr</a> or visit our studio in Rethymno, Crete.</p>
+</section>
+

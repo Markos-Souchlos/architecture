@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
     <link rel="stylesheet" href="../public/css/styles.css" />
-    <link rel="stylesheet" href="../public/css/gallery.css" />
-    <title>Domifactus | Gallery</title>
+    <link rel="stylesheet" href="../public/css/project.css" />
+    <title>Domifactus | Projects</title>
 </head>
-
 <body>
 
     <nav aria-label="main-navigation" id="main-nav">
         <ul>
-            <li id="li-logo"><a href="/en/home.html" id="logo"><img
-                        src="../public/assets/icons/88d728b9-073a-4b3e-bbb2-1975ab491d05.jpeg" alt="logo"
-                        id="logo-img"></a></li>
+            <li id="li-logo"><a href="/en/home.html" id="logo"><img src="../public/assets/icons/88d728b9-073a-4b3e-bbb2-1975ab491d05.jpeg" alt="logo" id="logo-img" ></a></li>
 
             <li><a href="/en/home.html">HOME</a></li>
             <li><a href="/en/about.html">ABOUT</a></li>
@@ -37,32 +33,27 @@
         <li><button class="change-lang"><img src="https://img.icons8.com/fluency/48/usa-circular.png" alt="USA flag" /></button></li>
     </ul>
 
-    <button id="top">
-        <img src="../public/assets/icons/icons8-top-50.png" alt="go to top" title="Go to top">
+    <button id="top" >
+        <img src="../public/assets/icons/icons8-top-50.png" alt="go to top" title="Go to top" >
     </button>
 
-
-
-
+    <img class="header-img" src="../public/assets/Buildings/Project_07/Εικόνα_2.jpg" alt="project image">
+    
     <main>
-        <h1>Photo Gallery</h1>
-        <p>Discover the beauty and elegance of our designs</p>
-        <div id="photo-container">
 
-        </div>
-        <button id="load-more" onclick="loadCards()">Load more</button>
+        <div id="project-info"></div>
+        <button id="read-more" onclick="showText()">READ MORE</button>
+
+        <div id="project-images"></div>
+        
     </main>
 
-
-
-    <!-- Map -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7318.246304091099!2d24.46007261527198!3d35.36383370041542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149b75f5079565bb%3A0xea975fc7db4f05a7!2sdomifactus!5e0!3m2!1sen!2sgr!4v1735421228082!5m2!1sen!2sgr" style="border:0;" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7318.246304091099!2d24.46007261527198!3d35.36383370041542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149b75f5079565bb%3A0xea975fc7db4f05a7!2sdomifactus!5e0!3m2!1sen!2sgr!4v1735421228082!5m2!1sen!2sgr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <footer>
         <div id="fcontainer">
             <div class="footer-card lg">
-                <a href="/en/home.html"><img src="../public/assets/icons/88d728b9-073a-4b3e-bbb2-1975ab491d05.jpeg"
-                        alt="logo" id="footer-logo"></a>
+                <a href="/en/home.html"><img src="../public/assets/icons/88d728b9-073a-4b3e-bbb2-1975ab491d05.jpeg" alt="logo" id="footer-logo" ></a>
                 <p>Domifactus Architecture Studio creates innovative, sustainable spaces that inspire and endure</p>
             </div>
             <div class="footer-card info">
@@ -92,27 +83,22 @@
 
 
 
-
     <script type="module">
 
         import { underline, increaseNav, sandwitch, resize, goToTop, getYear, changeLanguage } from '../index.js';
 
-        underline(5);
+        underline(4);
         increaseNav();
         sandwitch();
         resize(); 
         goToTop();
         getYear();
-        changeLanguage('gr', 'gallery');
+        changeLanguage('gr', 'projects');
 
     </script>
 
     <script>
 
-        const photoContainer = document.querySelector('#photo-container');
-        let text = '';
-
-        // Configuration
         const files = [3, 9, 8, 10, 5, 5, 10, 5, 3, 3, 5, 5, 3, 5, 6];
         const desc = [
             'Villa Horizon in Elounda, Crete',
@@ -132,58 +118,59 @@
             'Elegant Residence in Pitsidia, Heraklion',
         ];
 
-        let currentFolder = 1;
-        let currentCard = 1;
-        const cardsPerLoad = 15;
+        const params = new URLSearchParams(window.location.search);
+        const key = params.get('key');
+        const img = params.get('img');
+        const type = params.get('type');
+        const infoURL = `../public/assets/Buildings/Project_${key}/info.txt`;
+        let imagesHTML = '';
 
-        function loadCards() {
-            let cardsLoaded = 0;
-
-            // Load cards 
-            while (currentFolder <= files.length && cardsLoaded < cardsPerLoad) {
-                if (currentCard > files[currentFolder - 1]) {
-                    currentCard = 1; 
-                    currentFolder++;
-                    continue;
-                }
-
-                const imageSrc = currentFolder < 10
-                    ? `../public/assets/Buildings/Project_0${currentFolder}/Εικόνα_${currentCard}.png`
-                    : `../public/assets/Buildings/Project_${currentFolder}/Εικόνα_${currentCard}.png`;
-
-                text += `
-                    <div class="card" onmouseover="hover(this)" onmouseout="hide(this)">
-                        <img src="${imageSrc}" alt="building" loading="lazy" onerror="this.onerror=null; this.src='${imageSrc.replace('.png', '.jpg')}';" />
-                        <p>${desc[currentFolder - 1]}</p>
-                    </div>
-                `;
-
-                currentCard++;
-                cardsLoaded++;
-            }
-
-            photoContainer.innerHTML += text;
-            text = ''; 
+        for (let index = 1; index <= files[key-1]; index++) {
+            imagesHTML += `
+            <div>
+                <img src='../public/assets/Buildings/Project_${key}/Εικόνα_${index}.${type}' alt='project-image' />
+            </div>
+            `;
+            
         }
 
+        function showTrimmedText() {
+            fetch(infoURL)
+            .then(response => response.text())
+            .then(text => {
+                const trimmedText = text.split("</section>")[0] + "</section>";
+                document.querySelector('#project-info').innerHTML = trimmedText;
+            })
+            .catch(error => console.error('Error fetching file:', error));
 
-        loadCards();
-
-
-
-        function hover(target) {
-            console.log(target.children[0]);
-            target.children[1].style.bottom = "-20px";
-            target.children[0].style.transform = "scale(1.05)";
+            document.querySelector('main #read-more').textContent = 'READ MORE';
+            document.querySelector("main #read-more").setAttribute("onclick", "showText()");
         }
 
-        function hide(target) {
-            target.children[1].style.bottom = "-110px";
-            target.children[0].style.transform = "scale(1.0)";
+        function showText() {
+            fetch(infoURL)
+            .then(response => response.text())
+            .then(text => {
+                document.querySelector('#project-info').innerHTML = text;
+            })
+            .catch(error => console.error('Error fetching file:', error));
+
+            document.querySelector('main #read-more').textContent = 'READ LESS';
+            document.querySelector("main #read-more").setAttribute("onclick", "showTrimmedText()");
+
         }
+
+        showTrimmedText();
+        
+
+        console.log(key, img, type);
+        document.querySelector('.header-img').src = `../public/assets/Buildings/Project_${key}/Εικόνα_${img}.${type}`;
+
+        document.querySelector('#project-images').innerHTML = imagesHTML;
+
+
 
     </script>
-
+    
 </body>
-
 </html>

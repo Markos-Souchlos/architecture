@@ -1,6 +1,56 @@
-ΕΡΓΟ:       ΔΥΟ ΝΕΕΣ ΙΣΟΓΕΙΕΣ ΚΑΤΟΙΚΙΕΣ ΜΕ ΣΟΦΙΤΕΣ ΚΑΙ ΚΟΛΥΜΒΗΤΙΚΕΣ ΔΕΞΑΜΕΝΕΣ ΚΑΙ 
-	 ΜΙΑ ΝΕΑ ΙΣΟΓΕΙΑ ΚΑΤΟΙΚΙΑ ΜΕ ΚΟΛΥΜΒΗΤΙΚΗ ΔΕΞΑΜΕΝΗ
+<header>
+    <h1>Apartment Complex in Chania</h1>
+    <p><strong>Location:</strong> Chania, Crete, Greece</p>
+    <p><strong>Type:</strong> Modern Residential Apartment Complex</p>
+    <p><strong>Completion Year:</strong> 2026</p>
+    <p><strong>Architectural Style:</strong> Contemporary Urban Design with Mediterranean Elements</p>
+    <p><strong>Size:</strong> 2,500 sqm</p>
+</header>
 
+<section id="overview">
+    <h2>Project Overview</h2>
+    <p>The Apartment Complex in Chania is a contemporary residential project located in one of Crete’s most charming coastal cities. Spanning 2,500 sqm, this complex offers modern living spaces designed to cater to families, professionals, and vacationers. With its prime location and thoughtful design, the complex combines urban convenience with the relaxed Mediterranean lifestyle.</p>
+</section>
 
-ΘΕΣΗ :       ΘΕΣΗ «ΣΕΛΛΙΑ», ΕΚΤΟΣ ΟΙΚΙΣΜΟΥ ΓΡΑΜΒΟΥΣΑΣ, ΚΟΙΝΟΤΗΤΑΣ ΓΡΑΜΒΟΥΣΑΣ, ΔΗΜΟΤΙΚΗΣ ΕΝΟΤΗΤΑΣ 
-            ΚΙΣΣΑΜΟΥ, ΔΗΜΟΥ ΚΙΣΣΑΜΟΥ, ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΕΝΟΤΗΤΑΣ ΧΑΝΙΩΝ, ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ
+<section id="design-concept">
+    <h2>Design Concept</h2>
+    <p>The design concept for the Apartment Complex in Chania focuses on modern urban living while preserving a connection to the natural beauty of Crete. Featuring clean lines, natural materials, and Mediterranean-inspired textures, the architecture reflects the essence of Chania’s coastal charm. Open floor plans and large windows ensure abundant natural light and ventilation.</p>
+    <p>Outdoor spaces, such as balconies, shared terraces, and gardens, provide residents with serene retreats while maintaining an urban feel. The sustainable use of local materials and energy-efficient systems further enhances the project’s environmental impact.</p>
+</section>
+
+<section id="interior-features">
+    <h2>Interior Features</h2>
+    <ul>
+        <li><strong>Modern Apartments:</strong> The complex includes one-, two-, and three-bedroom apartments, each designed for functionality and comfort.</li>
+        <li><strong>High-End Finishes:</strong> Interiors feature sleek finishes, including marble, wood, and eco-friendly materials.</li>
+        <li><strong>Private Balconies:</strong> Each unit has a spacious balcony offering views of the city, sea, or landscaped gardens.</li>
+        <li><strong>Smart Home Features:</strong> Automated lighting, climate control, and security systems ensure convenience and safety.</li>
+        <li><strong>Shared Amenities:</strong> A rooftop lounge, gym, and co-working spaces cater to residents’ diverse needs.</li>
+    </ul>
+</section>
+
+<section id="exterior-landscape">
+    <h2>Exterior & Landscape</h2>
+    <p>The exterior design of the complex balances modern aesthetics with natural elements, creating a welcoming and relaxing environment.</p>
+    <ul>
+        <li><strong>Landscaped Courtyards:</strong> Green spaces and communal gardens provide areas for relaxation and recreation.</li>
+        <li><strong>Rooftop Terrace:</strong> The shared rooftop terrace features lounge areas, a small pool, and stunning panoramic views of Chania.</li>
+        <li><strong>Sustainable Landscaping:</strong> Native plants and water-efficient systems contribute to eco-conscious living.</li>
+    </ul>
+</section>
+
+<section id="sustainability-innovation">
+    <h2>Sustainability & Innovation</h2>
+    <p>The Apartment Complex in Chania prioritizes sustainability and innovation through cutting-edge design and technology.</p>
+    <ul>
+        <li><strong>Solar Power:</strong> Solar panels generate clean energy for shared spaces and reduce the building’s carbon footprint.</li>
+        <li><strong>Water Management:</strong> A rainwater collection system supports irrigation and reduces water waste.</li>
+        <li><strong>Energy Efficiency:</strong> Insulated walls, double-glazed windows, and passive cooling reduce energy consumption.</li>
+    </ul>
+</section>
+
+<section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>The Apartment Complex in Chania offers an exceptional living experience with modern amenities, sustainable features, and a prime location in one of Crete’s most vibrant cities. This project redefines urban living by combining functionality, comfort, and Mediterranean charm.</p>
+    <p>For more information about this project, contact us at <a href="mailto:domifactus@yahoo.gr">domifactus@yahoo.gr</a> or visit our studio in Rethymno, Crete.</p>
+</section>
