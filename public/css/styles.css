@@ -8,7 +8,6 @@
     --text: #000000;
     --nav: #ffffff;
     --footer: #1f1f1f;
-    color-scheme: dark;
 }
 
 * {
@@ -79,6 +78,7 @@ body::-webkit-scrollbar-thumb {
 
 
 #main-nav {
+    color-scheme: dark;
     position:fixed;
     width: 100%;
     top: 0px;
@@ -573,7 +573,6 @@ section.about-us a:hover {
 .flexing .card {
     width: 300px;
     min-width: 250px;
-    color: var(--footer)
 }
 
 .f1 {
