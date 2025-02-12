@@ -8,6 +8,7 @@ main {
 
 body {
     background-image: url('https://img.freepik.com/free-vector/white-abstract-wallpaper-3d-paper-style_23-2148413572.jpg?t=st=1735987342~exp=1735990942~hmac=f5ecb9edb3dc84ce0307b50f12bf27e4b42f1056c0dfc1cfb23f6ae1fa62a2ef&w=996');
+    color: var(--text);
 }
 
 #projects-container {
