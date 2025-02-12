@@ -2,7 +2,9 @@
     --background: #e4e4e4;
     --primary: #eaa33a;
     --text: #000000;
-    --nav: #ffffff;
+    --nav: #ffffff; 
+    color-scheme: dark;
+
 }
 
 body {

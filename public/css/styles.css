@@ -8,6 +8,7 @@
     --text: #000000;
     --nav: #ffffff;
     --footer: #1f1f1f;
+    color-scheme: dark;
 }
 
 * {
@@ -572,6 +573,7 @@ section.about-us a:hover {
 .flexing .card {
     width: 300px;
     min-width: 250px;
+    color: var(--footer)
 }
 
 .f1 {
